@@ -6,4 +6,3 @@ D = int(input("Digite o valor de D: "))
 diferenca = ( A * B) - (C * D)
 
 print(f"DIFERENCA = {diferenca}")
-
