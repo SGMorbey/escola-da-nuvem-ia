@@ -1,0 +1,7 @@
+salario_reajuste/
+│
+├── main.py
+├── reajuste/
+│   ├── __init__.py
+│   ├── calculos.py
+│   └── formatacao.py

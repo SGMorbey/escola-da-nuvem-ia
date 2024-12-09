@@ -1,0 +1,18 @@
+"""
+try:
+O mundo ideal
+except:
+Se der algun problema
+finally:
+De todo jeito vai rodar.
+"""
+
+try:
+    arquivo = open("dados.txt", "r")
+    print(arquivo.read)
+except FileNotFoundError:
+    print("Erro: Arquivo não encontrado!")
+finally:
+    print("Encerrando a operação.")
+    if 'arquivo' in locals():
+        arquivo.close
